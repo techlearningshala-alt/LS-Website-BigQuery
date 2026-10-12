@@ -1,0 +1,73 @@
+export const tools = [
+  {
+    id: 1,
+    name: "Percentage Calculator",
+    des: "Calculating exam scores, discounts, salary hikes, growth, taxes, or everyday percentages, with this Percentage Calculator.",
+    path: "/percentage-calculator",
+    category: "Academic",
+  },
+  {
+    id: 2,
+    name: "CGPA To Percentage Calculator",
+    des: "Use this tool to convert CGPA into a percentage while you are applying for higher studies, government jobs, and more.",
+    path: "/cgpa-to-percentage-calculator",
+    category: "Academic",
+  },
+  {
+    id: 4,
+    name: "SGPA To Percentage Calculator",
+    des: "Converting SGPA manually can be confusing; this calculator simplifies the process by providing quick and reliable results.",
+    path: "/sgpa-to-percentage-calculator",
+    category: "Academic",
+  },
+  {
+    id: 3,
+    name: "Marks To Percentage Calculator",
+    des: "Convert your school result or college marks into a percentage. Simply enter your marks and let the calculator do the rest.",
+    path: "/marks-to-percentage-calculator",
+    category: "Academic",
+  },
+  
+  {
+    id: 5,
+    name: "Percentage To CGPA Calculator",
+    des: "Convert your percentage into CGPA for higher education, campus placements, or international universities, in just a few seconds.",
+    path: "/percentage-to-cgpa-calculator",
+    category: "Academic",
+  },
+  {
+    id: 6,
+    name: "Percentage To SGPA Calculator",
+    des: "Check your semester performance in grades with the Percentage to SGPA Calculator and get instant reliable results.",
+    path: "/percentage-to-sgpa-calculator",
+    category: "Academic",
+  },
+  {
+    id: 7,
+    name: "Attendance Calculator",
+    des: "Aiming to meet your university's 75% attendance rule, plan your semester after checking your attendance percentage till date.",
+    path: "/attendance-calculator",
+    category: "Academic",
+  },
+  {
+    id: 8,
+    name: "Age Calculator",
+    des: "Calculate your exact age in years, months, and days for college applications, jobs, and scholarships.",
+    path: "/age-calculator",
+    category: "Academic",
+  },
+  {
+    id: 9,
+    name: "Education Loan EMI Calculator",
+    des: "Estimate your monthly EMI, total interest, and repayment amount for education loans in seconds.",
+    path: "/education-loan-emi-calculator",
+    category: "Financial",
+  },
+  // {
+  //   id: 10,
+  //   name: "Common ROI Calculator",
+  //   des: "Pending Calculating exam scores, discounts, salary hikes, growth, taxes, or everyday percentages, with this Percentage Calculator.",
+  //   path: "/common-roi-calculator",
+  //   category: "Financial",
+  // },
+];

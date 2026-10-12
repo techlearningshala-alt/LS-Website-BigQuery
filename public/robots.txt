@@ -1,0 +1,35 @@
+User-agent: *
+Disallow: /videos
+Disallow: /playlists
+Disallow: /channels
+# AI search / citation bots
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: Claude-User
+Allow: /
+# AI training bots
+User-agent: GPTBot
+Disallow: /
+User-agent: ClaudeBot
+Disallow: /
+User-agent: CCBot
+Disallow: /
+User-agent: Google-Extended
+Disallow: /
+User-agent: Bytespider
+Disallow: /
+Sitemap: https://learningshala.com/sitemap.xml
+Sitemap: https://learningshala.com/sitemapblog.xml
+Sitemap: https://learningshala.com/sitemapblogauthors.xml
+Sitemap: https://learningshala.com/sitemapblogcategories.xml
+Sitemap: https://learningshala.com/sitemapnews.xml
+Sitemap: https://learningshala.com/sitemapnewsauthors.xml
+Sitemap: https://learningshala.com/sitemapnewscategories.xml
+Sitemap: https://learningshala.com/sitemapadmissionprocess.xml
+Sitemap: https://learningshala.com/sitemapfeestructure.xml

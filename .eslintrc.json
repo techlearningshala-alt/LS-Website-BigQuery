@@ -1,0 +1,11 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "overrides": [
+    {
+   "files": ["*.js", "*.jsx"],
+      "rules": {},
+       "parser": "espree",
+       "react/prop-types": "off"
+    }
+  ]
+}

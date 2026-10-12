@@ -1,0 +1,35 @@
+/* Custom range slider */
+.customSlider {
+    appearance: none;
+    height: 6px;
+    border-radius: 9999px;
+    background: linear-gradient(
+      to right,
+      #008601 var(--progress, 0%),
+      #e5e7eb var(--progress, 0%)
+    );
+    outline: none;
+    transition: background 0.2s ease;
+  }
+  
+  /* Thumb (the draggable dot) */
+  .customSlider::-webkit-slider-thumb {
+    appearance: none;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #6ab26a; /* purple thumb */
+    cursor: pointer;
+    border: 2px solid white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .customSlider::-moz-range-thumb {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #8b5cf6;
+    cursor: pointer;
+    border: 2px solid white;
+  }
+  
