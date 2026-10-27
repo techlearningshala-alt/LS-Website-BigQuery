@@ -279,7 +279,7 @@ export default function Home({
   />
 ) : (
   <MainHeading
-    title={<><span className="bg-gradient-to-r from-[#e64053] via-[#fa586b] to-[#C8A84E] bg-clip-text text-transparent">Online Courses</span> You Can Choose From!</>}
+    title={<><span className="bg-gradient-to-r from-[#e64053] via-[#fa586b] to-[#C8A84E] bg-clip-text text-transparent">Online Courses</span> You Can Choose From</>}
     className="text-center"
   />
 )}
